@@ -1,0 +1,6 @@
+# Install as root
+make clean
+make all
+sudo make install
+sudo modprobe cfg80211
+sudo insmod rtl8821cu.ko
